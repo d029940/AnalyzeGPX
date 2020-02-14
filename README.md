@@ -2,7 +2,7 @@
 
 Shows routes, tracks and waypoints of a GPX file. Tested only with Garmin GPX files.
 
-There are three ares (tabs), initially empty:
+There are three areas (tabs), initially empty:
 - Devices with GPX files: Shows a list of devices / volumes with GPX files.
 - List the GPX files: lists GPX files of a selected device / volume.
 - GPX Content: shows the content (routes, tracks, waypoints) of a GPX file.
