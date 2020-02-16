@@ -17,4 +17,5 @@ The tabs will be populated with the following actions:
 
 Technical details:
 This a MacOS App written in Swift and using Storyboard.
+The UI uses a tab view in the main view
 It is one of my first projects and I am still learning. There are certainly better ways for design and implementation.
