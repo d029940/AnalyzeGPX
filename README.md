@@ -12,7 +12,7 @@ The tabs will be populated with the following actions:
 - The "Open GPX file" button lets you locate and open a specific GPX file in the file system and shows it in the "GPX Content" tab.
 - The "Load Garmin devices" looks for attached devices/volumes for a folder "/Garmin/GPX" and lists all devices in "Devices with GPX files" tab.
 - Clicking on a device/volume in the "Devices with GPX files" tab lists all GPX files on that device/volume
-- Clicking on a GXP file in the "List the GPX files" tab will show the content of the GPX file in the "GPX Content" tab.
+- Clicking on a GPX file in the "List the GPX files" tab will show the content of the GPX file in the "GPX Content" tab.
 
 
 Technical details:
