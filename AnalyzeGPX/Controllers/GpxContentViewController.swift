@@ -25,7 +25,7 @@ class GpxContentViewController: NSViewController {
     private var routesColumnText: String = ""
     private var waypointsColumnText: String = ""
     
-    // MARK:- Startup
+    // MARK:- Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         

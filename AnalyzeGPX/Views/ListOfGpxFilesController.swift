@@ -18,7 +18,7 @@ class ListOfGpxFilesController: NSViewController {
     // Model
     var listOfGpxFiles = GarminGpxFiles.listOfGpxFiles
 
-    // MARK: - Start up
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         

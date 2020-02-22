@@ -13,7 +13,7 @@ class MainViewController: NSViewController {
     // MARK: - Links to the view (of the storyboard)
     var tabView: NSTabView!
     
-    // MARK: Start up
+    // MARK: Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -17,7 +17,7 @@ class DevicesListViewController: NSViewController {
     // Model
     var listOfVolumes = GarminGpxFiles.listOfVolumes
     
-    // MARK: - Start up
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
