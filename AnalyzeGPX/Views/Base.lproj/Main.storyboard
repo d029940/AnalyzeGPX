@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -727,7 +727,6 @@
                                                     <tableColumns>
                                                         <tableColumn identifier="routesHeader" width="257" minWidth="40" maxWidth="1000" id="PVT-e5-Sxr">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Routes">
-                                                                <font key="font" metaFont="label" size="11"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                             </tableHeaderCell>
@@ -739,7 +738,7 @@
                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             <prototypeCellViews>
                                                                 <tableCellView identifier="cell" translatesAutoresizingMaskIntoConstraints="NO" id="ypy-Sr-O6r">
-                                                                    <rect key="frame" x="1" y="1" width="257" height="17"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="257" height="17"/>
                                                                     <subviews>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="yuu-qh-bKT">
                                                                             <rect key="frame" x="0.0" y="0.0" width="257" height="17"/>
@@ -774,6 +773,9 @@
                                                             </prototypeCellViews>
                                                         </tableColumn>
                                                     </tableColumns>
+                                                    <connections>
+                                                        <outlet property="menu" destination="frM-XJ-hew" id="38f-Wq-Mhk"/>
+                                                    </connections>
                                                 </tableView>
                                             </subviews>
                                         </clipView>
@@ -816,7 +818,6 @@
                                                     <tableColumns>
                                                         <tableColumn identifier="waypointsHeader" width="256" minWidth="40" maxWidth="1000" id="c2o-QT-iOg">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Waypoints">
-                                                                <font key="font" metaFont="label" size="11"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                             </tableHeaderCell>
@@ -828,7 +829,7 @@
                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             <prototypeCellViews>
                                                                 <tableCellView identifier="cell" translatesAutoresizingMaskIntoConstraints="NO" id="BWB-90-jPL">
-                                                                    <rect key="frame" x="1" y="1" width="256" height="17"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="256" height="17"/>
                                                                     <subviews>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="xTz-z1-YdY">
                                                                             <rect key="frame" x="0.0" y="0.0" width="256" height="17"/>
@@ -854,6 +855,9 @@
                                                             </prototypeCellViews>
                                                         </tableColumn>
                                                     </tableColumns>
+                                                    <connections>
+                                                        <outlet property="menu" destination="frM-XJ-hew" id="CHa-GO-U7Z"/>
+                                                    </connections>
                                                 </tableView>
                                             </subviews>
                                         </clipView>
@@ -896,7 +900,6 @@
                                                     <tableColumns>
                                                         <tableColumn identifier="tracksHeader" width="256" minWidth="40" maxWidth="1000" id="4tr-du-qhn">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Tracks">
-                                                                <font key="font" metaFont="label" size="11"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                             </tableHeaderCell>
@@ -908,7 +911,7 @@
                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             <prototypeCellViews>
                                                                 <tableCellView identifier="cell" translatesAutoresizingMaskIntoConstraints="NO" id="sSD-7L-tA5">
-                                                                    <rect key="frame" x="1" y="1" width="256" height="17"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="256" height="17"/>
                                                                     <subviews>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-wA-a5m">
                                                                             <rect key="frame" x="0.0" y="0.0" width="256" height="17"/>
@@ -934,6 +937,9 @@
                                                             </prototypeCellViews>
                                                         </tableColumn>
                                                     </tableColumns>
+                                                    <connections>
+                                                        <outlet property="menu" destination="frM-XJ-hew" id="eMG-Oe-BTd"/>
+                                                    </connections>
                                                 </tableView>
                                             </subviews>
                                         </clipView>
@@ -976,11 +982,22 @@
                     </view>
                     <connections>
                         <outlet property="routesTableView" destination="015-Im-cQe" id="t9K-8a-m30"/>
+                        <outlet property="tableMenu" destination="frM-XJ-hew" id="s5K-4O-saV"/>
                         <outlet property="tracksTableView" destination="R0V-md-PfX" id="l65-bY-c5J"/>
                         <outlet property="waypointsTableView" destination="Ngl-YY-Jpp" id="zHB-vc-PwL"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <menu id="frM-XJ-hew">
+                    <items>
+                        <menuItem title="Delete" id="eIE-Ss-M1Q">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                        </menuItem>
+                        <menuItem title="Change Name" id="PWQ-f4-y5D">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                        </menuItem>
+                    </items>
+                </menu>
             </objects>
             <point key="canvasLocation" x="545" y="1247"/>
         </scene>
@@ -1098,7 +1115,6 @@
                                     <tableColumns>
                                         <tableColumn identifier="name" width="151" minWidth="40" maxWidth="1000" id="HFa-aY-E6O">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Name">
-                                                <font key="font" metaFont="label" size="11"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                             </tableHeaderCell>
@@ -1110,7 +1126,7 @@
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView identifier="name" translatesAutoresizingMaskIntoConstraints="NO" id="Cp6-1z-6UT">
-                                                    <rect key="frame" x="1" y="1" width="151" height="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="151" height="17"/>
                                                     <subviews>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Lh7-yH-roM">
                                                             <rect key="frame" x="0.0" y="0.0" width="151" height="17"/>
@@ -1137,7 +1153,6 @@
                                         </tableColumn>
                                         <tableColumn identifier="path" width="291" minWidth="40" maxWidth="1000" id="qJY-Yh-xrf">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Path">
-                                                <font key="font" metaFont="label" size="11"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                             </tableHeaderCell>
@@ -1149,7 +1164,7 @@
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView identifier="path" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-rQ-Zc4">
-                                                    <rect key="frame" x="155" y="1" width="291" height="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="291" height="17"/>
                                                     <subviews>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="fYE-6t-pfB">
                                                             <rect key="frame" x="0.0" y="0.0" width="291" height="17"/>
@@ -1222,7 +1237,6 @@
                                             <tableColumns>
                                                 <tableColumn width="445" minWidth="40" maxWidth="1000" id="vF9-u5-tvi">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="List of GX files">
-                                                        <font key="font" metaFont="label" size="11"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
